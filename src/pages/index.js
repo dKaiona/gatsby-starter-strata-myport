@@ -29,7 +29,7 @@ import addIn from '../assets/images/fulls/addIn.png'
 import driver from '../assets/images/fulls/driver.png'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: home, thumbnail: homeThumb, caption: 'Git It Thur', description: 'Landing page and login form.'},
+    { id: '1', src: home, thumbnail: homeThumb, caption: <a href="https://danielrdev.tech/#/">Git It Thur</a>, description: 'Landing page and login form. Handle: Dan, Password: dan'},
     { id: '2', src: dis, thumbnail: disThumb, caption: 'Git It Thur', description: 'Admin or dispatcher main page.'},
     { id: '3', src: addIn, thumbnail: addInThumb, caption: 'Git It Thur', description: 'The add inventory page.'},
     { id: '4', src: driver, thumbnail: driverThumb, caption: 'Git It Thur', description: 'User or driver main page.'},
