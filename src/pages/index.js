@@ -83,7 +83,7 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
+        const siteTitle = "Daniel's Protfolio"
         const siteDescription = "Site description"
 
         return (
