@@ -250,7 +250,7 @@
 	label {
 		color: _palette(fg-bold);
 		display: block;
-		font-size: 0.9em;
+		font-size: 5em;
 		font-weight: _font(weight-bold);
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 	}
@@ -936,7 +936,7 @@
 
 		h1 {
 			color: _palette(accent2, fg);
-			font-size: 1.35em;
+			font-size: 1.5em;
 			line-height: 1.75em;
 			margin: 0;
 			text-shadow: 1px 1px rgba(65, 105, 225, 0.699)
@@ -961,7 +961,7 @@
 
 		.copyright {
 			color: _palette(accent2, fg-light);
-			font-size: 0.8em;
+			font-size: 2em;
 			list-style: none;
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 			padding: 0;
