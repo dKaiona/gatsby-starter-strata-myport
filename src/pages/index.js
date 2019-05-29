@@ -5,34 +5,36 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
+
 import homeThumb from '../assets/images/thumbs/home.png'
 import disThumb from '../assets/images/thumbs/dis.png'
 import addInThumb from '../assets/images/thumbs/addIn.png'
 import driverThumb from '../assets/images/thumbs/driver.png'
+import deskThumb from '../assets/images/thumbs/Desk.png'
+import codeThumb from '../assets/images/thumbs/Code.png'
+import bombFrameThumb from '../assets/images/thumbs/BombFrame.png'
+import failThumb from '../assets/images/thumbs/Fail.png'
 
 
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
+
 import home from '../assets/images/fulls/home.png'
 import dis from '../assets/images/fulls/dis.png'
 import addIn from '../assets/images/fulls/addIn.png'
 import driver from '../assets/images/fulls/driver.png'
+import desk from '../assets/images/fulls/Desk.png'
+import code from '../assets/images/fulls/Code.png'
+import bombFrame from '../assets/images/fulls/BombFrame.png'
+import fail from '../assets/images/fulls/Fail.png'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: home, thumbnail: homeThumb, caption: <a href="https://danielrdev.tech/#/">Git It Thur</a>, description: 'Landing page and login form. Handle: Dan, Password: dan'},
-    { id: '2', src: dis, thumbnail: disThumb, caption: 'Git It Thur', description: 'Admin or dispatcher main page.'},
-    { id: '3', src: addIn, thumbnail: addInThumb, caption: 'Git It Thur', description: 'The add inventory page.'},
-    { id: '4', src: driver, thumbnail: driverThumb, caption: 'Git It Thur', description: 'User or driver main page.'},
+    { id: '1', src: home, thumbnail: homeThumb, caption: <a href="https://danielrdev.tech/#/">Git It Thur</a>, description:<a href='https://github.com/dKaiona/Personal-Project.Two'>Landing page and login form. Handle: Dan, Password: dan. You can find the Github repo by clicking here</a>},
+    { id: '2', src: dis, thumbnail: disThumb, caption: 'Admin or dispatcher main page', description: 'Worked a lot with styled components on this view.  Also one of the tougher pages to make responsive'},
+    { id: '3', src: addIn, thumbnail: addInThumb, caption: 'The add inventory page', description: 'Clean and simple inputs and AWS S3 file uploader to allow pictures of the inventory to be uploaded'},
+    { id: '4', src: driver, thumbnail: driverThumb, caption: 'User or driver main page', description: 'Allows the dvier to see their orders and check them off as they go along'},
+    { id: '5', src: desk, thumbnail: deskThumb, caption: <a href="http://157.230.168.81:3200/#/">Keep Coding and Nobody Explodes</a>, description: <a href='https://github.com/code-bomb-com/code-or-explode/tree/master/code-or-explode'>The main hub of the game you can get to any view from here. Used Figma and sketch.io to create it. You can find the Github repo by click here.</a>},
+    { id: '6', src: code, thumbnail: codeThumb, caption: 'Info-Tech Page', description: 'One of the toughest parts of the project implementing a code editor. To be used to solve code challanges to help the Bomb-Tech defuse the bomb.'},
+    { id: '7', src: bombFrame, thumbnail: bombFrameThumb, caption: 'Bomb-Tech Page', description: 'Here the Bomb-Tech will relay information to the Info-Tech to help him identify the correct code challenge so that he can defuse the bomb.'},
+    { id: '8', src: fail, thumbnail: failThumb, caption: 'Failure Page', description: 'What happens if your team fails to defuse the bomb in time.'}
     
 ];
 
@@ -100,7 +102,7 @@ class HomeIndex extends React.Component {
                             <h2>About Me:</h2>
                         </header>
                         <p>I am a team-player, that loves the feeling of accomplishing a project. I bring with me creative problem solving skills, a great attitude, and a programming skill set. Plus I am a huge Ron Swanson fan. You can contact me at 14drob35@gmail.com.</p>
-                        <h2>Tech Skills:</h2><br/>
+                        <h2>Tech Skills:</h2>
                         <p>JavaScript | ReactJS | CSS | HTML | SQL | Express | Redux | Styled Components | NodeJS</p>
                     </section>
 
