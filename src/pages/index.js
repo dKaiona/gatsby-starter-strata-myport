@@ -27,15 +27,17 @@ import bombFrame from '../assets/images/fulls/BombFrame.png'
 import fail from '../assets/images/fulls/Fail.png'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: home, thumbnail: homeThumb, caption: <a href="https://danielrdev.tech/#/">Git It Thur</a>, description:<a href='https://github.com/dKaiona/Personal-Project.Two'>Landing page and login form. Handle: Dan, Password: dan. You can find the Github repo by clicking here</a>},
+    { id: '1', src: home, thumbnail: homeThumb, caption: <a href="https://danielrdev.tech/#/">Live Site</a>, description:<a href='https://github.com/dKaiona/Personal-Project.Two'>Landing page and login form. Handle: Dan, Password: dan. You can find the Github repo by clicking here</a>},
     { id: '2', src: dis, thumbnail: disThumb, caption: 'Admin or dispatcher main page', description: 'Worked a lot with styled components on this view.  Also one of the tougher pages to make responsive'},
     { id: '3', src: addIn, thumbnail: addInThumb, caption: 'The add inventory page', description: 'Clean and simple inputs and AWS S3 file uploader to allow pictures of the inventory to be uploaded'},
-    { id: '4', src: driver, thumbnail: driverThumb, caption: 'User or driver main page', description: 'Allows the dvier to see their orders and check them off as they go along'},
-    { id: '5', src: desk, thumbnail: deskThumb, caption: <a href="http://157.230.168.81:3200/#/">Keep Coding and Nobody Explodes</a>, description: <a href='https://github.com/code-bomb-com/code-or-explode/tree/master/code-or-explode'>The main hub of the game you can get to any view from here. Used Figma and sketch.io to create it. You can find the Github repo by click here.</a>},
+    { id: '4', src: driver, thumbnail: driverThumb, caption: 'User or driver main page', description: 'Allows the dvier to see their orders and check them off as they go along'},  
+];
+
+const MY_IMAGES = [
+    { id: '5', src: desk, thumbnail: deskThumb, caption: <a href="http://157.230.168.81:3200/#/">Live Site</a>, description: <a href='https://github.com/code-bomb-com/code-or-explode/tree/master/code-or-explode'>The main hub of the game you can get to any view from here. Used Figma and sketch.io to create it. You can find the Github repo by click here.</a>},
     { id: '6', src: code, thumbnail: codeThumb, caption: 'Info-Tech Page', description: 'One of the toughest parts of the project implementing a code editor. To be used to solve code challanges to help the Bomb-Tech defuse the bomb.'},
     { id: '7', src: bombFrame, thumbnail: bombFrameThumb, caption: 'Bomb-Tech Page', description: 'Here the Bomb-Tech will relay information to the Info-Tech to help him identify the correct code challenge so that he can defuse the bomb.'},
     { id: '8', src: fail, thumbnail: failThumb, caption: 'Failure Page', description: 'What happens if your team fails to defuse the bomb in time.'}
-    
 ];
 
 class HomeIndex extends React.Component {
@@ -108,8 +110,15 @@ class HomeIndex extends React.Component {
 
                     <section id="two">
                         <h2>Projects</h2>
-
+                        <h4>Git It Thur</h4>
                         <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
+                            src,
+                            thumbnail,
+                            caption,
+                            description
+                        }))} />
+                        <h4>Keep Coding and Nobody Explodes</h4>
+                        <Gallery images={MY_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
                             src,
                             thumbnail,
                             caption,
