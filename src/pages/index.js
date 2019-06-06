@@ -103,7 +103,14 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>About Me:</h2>
                         </header>
-                        <p>I am a team-player, that loves the feeling of accomplishing a project. I bring with me creative problem solving skills, a great attitude, and a programming skill set. Plus I am a huge Ron Swanson fan. You can contact me at 14drob35@gmail.com.</p>
+                        <p>I am a web developer with a passion for creating new projects and solving unique problems. I am team player that brings to the workplace a positive attitude and a love for learning new technologies.<br/>
+
+In the past I have done work in construction, and I’ve found that the skills I’ve developed building physical projects has been crucial in helping me visualize and build web projects as well. Whether it’s a greenhouse or a website, I love taking a new idea from its conception on paper to a finished product.<br/>
+
+I’m looking forward to using these new skills to help a company solve their problems and achieve their goals. I’m currently seeking opportunities that will allow me to do that while continuing to develop my skill set as a developer.<br/>
+
+In my free time you can find me advancing my career as an amateur fisherman, or learning from the legendary Ron Swanson on Netflix.</p>
+                        <h4>Feel free to connect with me on <a href="https://www.linkedin.com/in/daniel-roberts-k/"><span>LinkedIn</span></a> or email at 14drob35@gmail.com</h4>
                         <h2>Tech Skills:</h2>
                         <p>JavaScript | ReactJS | CSS | HTML | SQL | Express | Redux | Styled Components | NodeJS</p>
                     </section>
